@@ -45,7 +45,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Simulation.BouncingBalls">
+  <component name="RunManager" selected="Application.SymbolTables.TwoThreeTree">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -63,6 +63,16 @@
     </configuration>
     <configuration name="Sort.ThreeWayQuickSort" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Sort.ThreeWayQuickSort" />
+      <module name="Algorithm_1" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SymbolTables.BST" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="SymbolTables.BST" />
+      <module name="Algorithm_1" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SymbolTables.TwoThreeTree" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="SymbolTables.TwoThreeTree" />
       <module name="Algorithm_1" />
       <method v="2" />
     </configuration>

@@ -159,6 +159,37 @@ public class BST<Key extends Comparable<Key>, Value> {
     }
 
     public static void main(String[] args) {
+        BST<String, Integer> bst = new BST<>();
+        bst.put("A", 1);
+        bst.put("B", 2);
+        bst.put("C", 3);
+        System.out.println("Size: " + bst.size());
+        System.out.println("Get B: " + bst.get("B"));
+        System.out.println("Floor B: " + bst.floor("B"));
+        System.out.println("Ceiling B: " + bst.ceiling("B"));
+        System.out.println("Rank B: " + bst.rank("B"));
 
+        System.out.println("Keys: ");
+        for (String key : bst.keys()) {
+            System.out.println(key + " ");
+        }
+
+        bst.deleteMin();
+        System.out.println("Keys after deleting min: ");
+        for (String key : bst.keys()) {
+            System.out.println(key + " ");
+        }
+
+        bst.deleteMax();
+        System.out.println("Keys after deleting max: ");
+        for (String key : bst.keys()) {
+            System.out.println(key + " ");
+        }
+
+        bst.delete("B");
+        System.out.println("Keys after deleting B: ");
+        for (String key : bst.keys()) {
+            System.out.println(key + " ");
+        }
     }
 }
